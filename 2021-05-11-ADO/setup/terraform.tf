@@ -21,7 +21,7 @@ terraform {
     organization = "UTHealthSA"
 
     workspaces {
-      name = "terraform-tuesday-ado-setup"
+      name = "AzureDevOps-Setup"
     }
   }
 }
