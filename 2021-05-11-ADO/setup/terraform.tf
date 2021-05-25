@@ -18,7 +18,7 @@ terraform {
 
   }
   backend "remote" {
-    organization = "ned-in-the-cloud"
+    organization = "UTHealthSA"
 
     workspaces {
       name = "terraform-tuesday-ado-setup"

@@ -1,12 +1,13 @@
 variable "ado_org_service_url" {
   type        = string
   description = "Org service url for Azure DevOps"
+  default = "https://dev.azure.com/RiosRR"
 }
 
 variable "ado_github_repo" {
   type        = string
   description = "Name of the repository in the format <GitHub Org>/<RepoName>"
-  default     = "ned1313/terraform-tuesdays"
+  default     = "riosrr-it/terraform-tuesdays"
 }
 
 variable "ado_pipeline_yaml_path_1" {
@@ -24,12 +25,12 @@ variable "ado_github_pat" {
 variable "prefix" {
   type        = string
   description = "Naming prefix for resources"
-  default     = "tacos"
+  default     = "uthealth"
 }
 
 variable "az_location" {
   type    = string
-  default = "eastus"
+  default = "southcentral"
 }
 
 variable "az_container_name" {
