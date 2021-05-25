@@ -128,9 +128,3 @@ stages:
         command: 'apply'
         workingDirectory: '$(System.DefaultWorkingDirectory)/2021-05-11-ADO/vnet'
         commandOptions: '-auto-approve'
-
-
-
-
-
-

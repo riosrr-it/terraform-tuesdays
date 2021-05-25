@@ -18,11 +18,10 @@ terraform {
 
   }
   backend "remote" {
-    hostname = "app.terraform.io"
-    organization = "UTHealthSA"
+    organization = "ned-in-the-cloud"
 
     workspaces {
-      name = "AzureDevOps-Setup"
+      name = "terraform-tuesday-ado-setup"
     }
   }
 }
