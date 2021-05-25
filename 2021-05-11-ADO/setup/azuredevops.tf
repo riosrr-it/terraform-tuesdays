@@ -29,7 +29,7 @@ resource "azuredevops_project" "project" {
 
 resource "azuredevops_serviceendpoint_github" "serviceendpoint_github" {
   project_id            = azuredevops_project.project.id
-  service_endpoint_name = "terraform-tuesdays"
+  service_endpoint_name = "UTHealthSA"
 
   auth_personal {
     personal_access_token = var.ado_github_pat
