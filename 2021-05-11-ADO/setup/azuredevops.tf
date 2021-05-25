@@ -5,6 +5,10 @@ provider "azuredevops" {
   # Authentication through PAT defined with AZDO_PERSONAL_ACCESS_TOKEN 
 }
 
+provider "github" {
+  # Auth through PAT defined by GITHUB_TOKEN
+}
+
 resource "azuredevops_project" "project" {
   name               = local.ado_project_name
   description        = local.ado_project_description
